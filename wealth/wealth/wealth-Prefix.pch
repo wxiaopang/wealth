@@ -1,0 +1,98 @@
+//
+//  wealth-Prefix.pch
+//  wealth
+//
+//  Created by wangyingjie on 16/3/14.
+//  Copyright © 2016年 puhui. All rights reserved.
+//
+
+#ifndef wealth_Prefix_pch
+#define wealth_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <QuartzCore/QuartzCore.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <Security/Security.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
+#import <MapKit/MapKit.h>
+#import <LocalAuthentication/LocalAuthentication.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreText/CoreText.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <CoreImage/CoreImage.h>
+#import <ImageIO/ImageIO.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <OCMockito/OCMockito.h>
+#import <OCHamcrest/OCHamcrest.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import <ReactiveCocoa/NSObject+RACDescription.h>
+#import <ReactiveViewModel/ReactiveViewModel.h>
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/UIActivityIndicatorView+AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <GCDObjC/GCDObjC.h>
+#import <UICKeyChainStore/UICKeyChainStore.h>
+#import <CLLocationManager-blocks/CLLocationManager+blocks.h>
+#import <MojoDatabase/AppDatabase.h>
+#import <MojoDatabase/MojoModel.h>
+#import <MojoDatabase/JSONAPI.h>
+#import <MojoDatabase/JSONHTTPClient.h>
+#import <NJKWebViewProgress/NJKWebViewProgress.h>
+#import <NJKWebViewProgress/NJKWebViewProgressView.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/UIImage+GIF.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIView+WebCacheOperation.h>
+#import <MLTransition/MLTransition.h>
+#import <Bugly/BuglyLog.h>
+#import <Bugly/JSExceptionReporter.h>
+#import <MJRefresh.h>
+#import <Growing.h>
+
+
+
+//#import <Bugly/CrashReporter.h>       //bug 分析
+//#import <iRate/iRate.h>           //评分
+//#import <OneAPM/OneAPM.h>
+
+/**  swift下拉刷新头文件 混编 */
+//#import <wealth-Swift.h>
+
+//添加混淆作用的头文件（这个文件名是脚本confuse.sh中定义的）
+//#import "codeObfuscation.h"
+
+#import "Macro.h"
+#import "Category.h"
+
+#import "Utility.h"
+#import "PathEngine.h"
+#import "ShareEngine.h"
+#import "LocationEngine.h"
+#import "TouchIDEngine.h"
+#import "HttpClientAPI.h"
+#import "EncryptEngine.h"
+#import "DateEngine.h"
+#import "UserDefaultsWrapper.h"
+#import "wealthDataBase.h"
+#import "CoreAnimationEffect.h"
+#import "ClientManager.h"
+#import "JPUSHService.h"
+#import "CoreCommon.h"
+
+#import "UICommon.h"
+
+#import "UMAnalyticsEngine.h"
+#import "AppDelegate.h"
+
+#endif /* wealth_Prefix_pch */

@@ -1,0 +1,43 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+### 测试项目
+#target 'wealth-cal', exclusive: false do
+#  pod 'Calabash'
+#end
+#
+### 实用项目
+target 'wealth' do
+
+pod 'UMengAnalytics-NO-IDFA', '~> 3.6.7'
+pod 'libWeChatSDK', '~> 1.6'
+# pod 'WeiboSDK', '~> 3.0.1'
+pod 'TencentOpenApiSDK', '~> 2.9.5'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'ReactiveViewModel', '~> 0.3'
+pod 'AFNetworking', '~> 3.0.4'
+pod 'Masonry', '~> 0.6.4'
+pod 'GCDObjC', '~> 0.2.0'
+pod 'MojoDatabase', '~> 1.4'
+pod 'UICKeyChainStore', '~> 2.0.7'
+pod 'CLLocationManager-blocks', '~> 1.3.3'
+pod 'NJKWebViewProgress', '~> 0.2.3'
+pod 'SDWebImage', '~>3.7.5'
+pod 'Bugly', '~> 1.4.7'
+#pod 'iRate', '~> 1.11.4'
+pod 'MLTransition', '~> 2.0.1'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'GrowingIO'
+
+
+end
+
+target 'wealthTests' do
+    pod 'OCMockito', '~> 3.0'
+end
+
+target 'wealthUITests' do
+    pod 'OCMockito', '~> 3.0'
+end
